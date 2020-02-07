@@ -1,0 +1,36 @@
+{
+  "name": "gh-language-colors",
+  "version": "0.1.0",
+  "description": "GitHub Language Colors",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "generate-colors": "ts-node scripts/generate-colors.ts > src/colors.json",
+    "build": "npm run generate-colors && tsc",
+    "prepare": "npm run build",
+    "test": "mocha --require ts-node/register test/**/*.ts"
+  },
+  "keywords": [
+    "GitHub",
+    "language",
+    "color"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwtgck/gh-language-colors-npm"
+  },
+  "author": "Ryo Ota <nwtgck@nwtgck.org> (https://github.com/nwtgck)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/js-yaml": "^3.12.2",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^13.7.0",
+    "@types/power-assert": "^1.5.3",
+    "js-yaml": "^3.13.1",
+    "mocha": "^6.2.2",
+    "power-assert": "^1.6.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {}
+}
