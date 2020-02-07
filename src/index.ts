@@ -1,3 +1,2 @@
-export function hoge(str: string): number {
-  return str.length;
-}
+import * as colors from './colors.json';
+export default colors;
