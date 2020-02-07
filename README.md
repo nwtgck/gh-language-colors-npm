@@ -1,3 +1,3 @@
-# github-language-colors
+# gh-language-colors
 
 GitHub Language Colors
