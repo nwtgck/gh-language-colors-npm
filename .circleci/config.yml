@@ -4,7 +4,7 @@ ANCHORS:
       - checkout
       - run:
           name: "Pull Submodules"
-          command: git submodule update --init --recursive
+          command: git submodule update --init
       - run: npm ci
       - run: npm test
       # Check whether "run build" is successful
@@ -35,7 +35,7 @@ jobs:
       - checkout
       - run:
           name: "Pull Submodules"
-          command: git submodule update --init --recursive
+          command: git submodule update --init
       - run: npm ci
       - run:
           name: Authenticate with registry
