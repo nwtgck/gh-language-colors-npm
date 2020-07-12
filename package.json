@@ -23,7 +23,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/js-yaml": "^3.12.2",
-    "@types/mocha": "^7.0.1",
+    "@types/mocha": "^8.0.0",
     "@types/node": "^12.12.29",
     "@types/power-assert": "^1.5.3",
     "js-yaml": "^3.13.1",
