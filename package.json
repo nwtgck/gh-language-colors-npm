@@ -22,7 +22,7 @@
   "author": "Ryo Ota <nwtgck@nwtgck.org> (https://github.com/nwtgck)",
   "license": "MIT",
   "devDependencies": {
-    "@types/js-yaml": "^3.12.2",
+    "@types/js-yaml": "^4.0.2",
     "@types/mocha": "^7.0.1",
     "@types/node": "^12.12.29",
     "@types/power-assert": "^1.5.3",
